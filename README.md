@@ -12,7 +12,6 @@ ask career questions (skills gaps, role fit, resume improvements) — answers
 are grounded in their own document using AWS Bedrock (Titan embeddings +
 Llama 3) and FAISS, served via FastAPI with a Streamlit UI.
 
-**Topics:** `rag` · `aws-bedrock` · `faiss` · `fastapi` · `streamlit` · `resume-parser`
 
 ```
 Streamlit UI  ──HTTP──▶  FastAPI backend  ──▶  FAISS (per-user index)
