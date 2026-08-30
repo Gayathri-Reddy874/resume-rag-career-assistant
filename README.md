@@ -19,6 +19,8 @@ Streamlit UI  ──HTTP──▶  FastAPI backend  ──▶  FAISS (per-user i
                                 ▶  AWS Bedrock (Titan embeddings + Llama 3 70B)
 ```
 
+---
+
 ## Design highlights
 
 Notable engineering choices in this codebase:
