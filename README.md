@@ -115,7 +115,7 @@ cd backend
 pytest -v
 ```
 
-Tests mock the Bedrock client and embeddings entirely — they run offline,
+Tests mock the Bedrock client and embeddings entirely - they run offline,
 free, and fast, and are wired into CI (`.github/workflows/ci.yml`) on every
 push/PR.
 
