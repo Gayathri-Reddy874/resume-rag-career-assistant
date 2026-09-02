@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A retrieval-augmented Q&A assistant that lets users upload their resume and
-ask career questions (skills gaps, role fit, resume improvements) — answers
+ask career questions (skills gaps, role fit, resume improvements) - answers
 are grounded in their own document using AWS Bedrock (Titan embeddings +
 Llama 3) and FAISS, served via FastAPI with a Streamlit UI.
 
