@@ -14,7 +14,7 @@ Llama 3) and FAISS, served via FastAPI with a Streamlit UI.
 
 
 ```
-Streamlit UI  ──HTTP──▶  FastAPI backend  ──▶  FAISS (per-user index)
+Streamlit UI  -HTTP──▶  FastAPI backend  ──▶  FAISS (per-user index)
                                 │
                                 ▶  AWS Bedrock (Titan embeddings + Llama 3 70B)
 ```
