@@ -134,6 +134,7 @@ push/PR.
 ## Author
 
 **Mallareddygari Gayathri**
+
 [GitHub](https://github.com/Gayathri-Reddy874)
 
 ## License
