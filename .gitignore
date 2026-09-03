@@ -1,12 +1,1 @@
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-.env
-data/vector_store/
-*.log
-.pytest_cache/
-.DS_Store
-
 
