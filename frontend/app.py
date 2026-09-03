@@ -1,5 +1,5 @@
 """
-AI Career Assistant — Streamlit frontend.
+AI Career Assistant - Streamlit frontend.
 
 Talks to the FastAPI backend over HTTP. Configuration comes from
 environment variables so the same code works locally and when deployed
