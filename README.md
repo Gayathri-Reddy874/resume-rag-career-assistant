@@ -33,7 +33,7 @@ Notable engineering choices in this codebase:
 | Multi-tenancy | One FAISS index per user (hashed on-disk path), so cross-user leakage is structurally impossible and queries stay fast as users grow |
 | Validation | File extension + size checked up front with a clear 400 response |
 | Security | Configurable CORS allow-list, optional API-key header |
-| Testing | `pytest` suite (14 tests) with mocked Bedrock/embeddings — no AWS calls or costs in CI |
+| Testing | `pytest` suite (14 tests) with mocked Bedrock/embeddings - no AWS calls or costs in CI |
 | Ops | Dockerfiles + `docker-compose`, healthchecks, GitHub Actions CI |
 | Concurrency | Per-user lock to prevent FAISS read/write races |
 
