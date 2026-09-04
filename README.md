@@ -121,7 +121,7 @@ push/PR.
 
 ## Known limitations / next steps
 
-- FAISS indexes are stored on local disk — fine for a single instance, but
+- FAISS indexes are stored on local disk - fine for a single instance, but
   won't work across multiple backend replicas without a shared volume or a
   managed vector DB (OpenSearch, pgvector, Pinecone). `vector_store.py` is
   written so swapping the storage backend only touches that one file.
