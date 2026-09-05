@@ -28,7 +28,7 @@ Notable engineering choices in this codebase:
 | Area | Approach |
 |---|---|
 | Structure | Layered `core/ services/ routers/ models/` package |
-| Config | Centralized `pydantic-settings`, `.env`-driven — no hardcoded URLs or model IDs |
+| Config | Centralized `pydantic-settings`, `.env`-driven - no hardcoded URLs or model IDs |
 | Errors | Typed exception hierarchy → correct HTTP status codes, structured logging |
 | Multi-tenancy | One FAISS index per user (hashed on-disk path), so cross-user leakage is structurally impossible and queries stay fast as users grow |
 | Validation | File extension + size checked up front with a clear 400 response |
