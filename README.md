@@ -37,6 +37,8 @@ Notable engineering choices in this codebase:
 | Ops | Dockerfiles + `docker-compose`, healthchecks, GitHub Actions CI |
 | Concurrency | Per-user lock to prevent FAISS read/write races |
 
+---
+
 ## Project layout
 
 ```
