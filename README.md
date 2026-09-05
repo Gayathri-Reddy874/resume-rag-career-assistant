@@ -139,6 +139,8 @@ push/PR.
 
 [GitHub](https://github.com/Gayathri-Reddy874)
 
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
