@@ -133,6 +133,8 @@ push/PR.
   project or demo but not for multiple end users — replace with real
   per-user auth before handling other people's resumes in production.
 
+---
+
 ## Author
 
 **Mallareddygari Gayathri**
