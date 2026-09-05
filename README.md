@@ -98,7 +98,7 @@ All settings live in `.env` (see `.env.example`) at the project root. Notable on
 
 - `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` / `AWS_DEFAULT_REGION` - standard AWS credential resolution; on real AWS infrastructure, prefer an IAM role over static keys. `config.py` explicitly loads `.env` into the process environment (via `python-dotenv`) in addition to parsing it into typed settings, since boto3's credential chain reads directly from `os.environ` and won't pick up values that only live inside a pydantic settings object.
 - `ALLOWED_ORIGINS` - comma-separated list of origins allowed to call the API. Do not use `*` in production.
-- `REQUIRE_API_KEY` / `APP_API_KEY` — turn on a shared-secret header (`X-API-Key`) if the API is reachable from outside your own frontend. This is a minimal stopgap, not a substitute for real auth (OAuth2/JWT) in a multi-tenant production deployment.
+- `REQUIRE_API_KEY` / `APP_API_KEY` - turn on a shared-secret header (`X-API-Key`) if the API is reachable from outside your own frontend. This is a minimal stopgap, not a substitute for real auth (OAuth2/JWT) in a multi-tenant production deployment.
 
 ## AWS Bedrock prerequisites
 
