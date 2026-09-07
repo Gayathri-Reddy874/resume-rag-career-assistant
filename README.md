@@ -108,6 +108,8 @@ All settings live in `.env` (see `.env.example`) at the project root. Notable on
 - `ALLOWED_ORIGINS` - comma-separated list of origins allowed to call the API. Do not use `*` in production.
 - `REQUIRE_API_KEY` / `APP_API_KEY` - turn on a shared-secret header (`X-API-Key`) if the API is reachable from outside your own frontend. This is a minimal stopgap, not a substitute for real auth (OAuth2/JWT) in a multi-tenant production deployment.
 
+---
+
 ## AWS Bedrock prerequisites
 
 You need model access enabled in the AWS Bedrock console for:
