@@ -129,6 +129,8 @@ Tests mock the Bedrock client and embeddings entirely - they run offline,
 free, and fast, and are wired into CI (`.github/workflows/ci.yml`) on every
 push/PR.
 
+---
+
 ## Known limitations / next steps
 
 - FAISS indexes are stored on local disk - fine for a single instance, but
