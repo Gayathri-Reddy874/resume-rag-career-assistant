@@ -118,6 +118,8 @@ You need model access enabled in the AWS Bedrock console for:
 
 in whichever region you set as `AWS_DEFAULT_REGION`.
 
+---
+
 ## Testing
 
 ```bash
