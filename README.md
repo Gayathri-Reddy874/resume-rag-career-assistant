@@ -98,6 +98,8 @@ docker compose up --build
 - Backend: http://localhost:8000
 - API docs: http://localhost:8000/docs
 
+---
+
 ## Configuration
 
 All settings live in `.env` (see `.env.example`) at the project root. Notable ones:
