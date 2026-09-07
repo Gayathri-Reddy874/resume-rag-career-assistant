@@ -130,7 +130,7 @@ push/PR.
 - `PyPDF2` is deprecated upstream in favor of `pypdf`; swapping is a
   drop-in change when convenient.
 - The API-key auth is a single shared secret, adequate for a personal
-  project or demo but not for multiple end users — replace with real
+  project or demo but not for multiple end users - replace with real
   per-user auth before handling other people's resumes in production.
 
 ---
