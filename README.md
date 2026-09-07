@@ -62,6 +62,8 @@ resume-rag-career-assistant/
 └── .github/workflows/ci.yml
 ```
 
+---
+
 ## Running locally (without Docker)
 
 **1. Backend**
