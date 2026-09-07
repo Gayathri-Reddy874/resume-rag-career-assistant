@@ -85,6 +85,8 @@ streamlit run app.py
 Visit `http://localhost:8501` for the UI and `http://localhost:8000/docs`
 for interactive API docs (Swagger).
 
+---
+
 ## Running with Docker
 
 ```bash
